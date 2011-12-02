@@ -1,0 +1,16 @@
+name = "Flying presentation"
+description = "foo"
+package = "Features"
+core = "6.x"
+
+dependencies[] = "features"
+dependencies[] = "imagecache"
+dependencies[] = "imagefield"
+dependencies[] = "nodereference"
+
+features[content][] = "project-field_project_slides"
+features[content][] = "project_slide-field_slide_pictures"
+features[imagecache][] = "slide"
+features[node][] = "project"
+features[node][] = "project_slide"
+
