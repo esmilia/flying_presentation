@@ -99,4 +99,7 @@ body.flying-presi-active .project-slide {
   color: #000;
 }
 
-/* foo */
+.project-menfefeu li:hover {
+  color: #fff;
+}
+
